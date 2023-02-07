@@ -11,6 +11,16 @@ pytest unit_test_session.py -v
 ```
 pytest unit_test_session.py -v --junitxml=report.xml
 ```
+## 匯出含覆蓋率報表
+- 下載需求套件
+```
+python -m pip install pytest-cov
+```
+- 執行指令
+```
+py.test {test.py} --cov={project-dir} --cov-report={output type}
+ex: py.test testMain.py --cov=../ --cov-report=xml
+```
 ## 特殊用法
 依據function命名，有特殊功能
 - setup_method  
