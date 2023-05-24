@@ -1,7 +1,8 @@
 # How to use pytest
 
 ## Start
--v : 詳細資訊
+-v : 詳細資訊  
+-s : 顯示所有訊息(包含print)  
 - 執行指令  
 
 ```
